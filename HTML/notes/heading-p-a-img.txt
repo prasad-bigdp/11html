@@ -1,0 +1,56 @@
+Headings:
+HTML provides 6 Headings ranging from h1 to h6. Each one is used for headings with different sizes and different importance. All headings are bold by default
+
+for better SEO(search engine optimization), it is recommaded to have only one h1 per page
+eg:   <h1>Hello world</h1>
+   <h2>Hello world</h2>
+   <h3>Hello world</h3>
+   <h4>Hello world</h4>
+   <h5>Hello world</h5>
+   <h6>Hello world</h6>
+
+Paragraph: paragraphs can be added using 'p' tag
+we can dummy Paragraph using emmets like "lorem" or "lorem50" (for 50 word)
+
+<p>some Paragraph </p>
+
+Anchor tag:
+  Anchor tag is used to navigate from one page or another page or a link
+  Anchor tag uses an attribute called "href(hyper reference)". it is used for path/url of the link
+  eg:  <a href="https://www.google.com">click me</a>
+
+  To open in New Tab, use "target" attribute with value "_blank"
+   <a href="https://www.google.com" target="_blank">click me</a>
+
+  To open local links, we can use 
+    <a href="path">click me</a>
+./  --- same folder
+../ --- another folder
+
+  To download an image/pdf/documents/media , we can use download attribute
+  <a href="path to document/media" download>click me</a>
+ 
+  To send an email , we can use smtp protocol
+
+  <a href="mailto:mailid"> click me</a>
+
+  Images: 
+  Images can be added to html by using 'img' tag
+  'img' tag will contain two attribute mainly. they are:
+  src -- source of the image(link url / local path)
+  alt -- it is the alternative text to print in case of image 
+  is not loaded
+  height -- it is used to define Height of the image
+  width --  it is used to define Width of the image
+  <img src="https://i.pinimg.com/236x/96/55/1a/96551aca678338e58786f0fe98529c86.jpg" alt="shinchan-image">
+<img src="./myImage.webp" alt="shinchan-image2" height="200" width="500">
+
+In HTML, some tags doesn't need any closing tag , they are called self closing tags . These are also called void elements or unpaired elements
+eg:img
+  
+
+
+
+
+
+

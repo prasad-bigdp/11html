@@ -1,0 +1,42 @@
+Formatting Tags:
+  These Tags are used to format the text
+  b  -- b is used to make the text bold
+  strong -- strong is also used to make the text bold but it gives better SEO
+  i -- i is used to make the text italic
+  em -- em is also used to make the text italic but em gives better SEO
+  u -- u is used to make the text underline
+  mark -- mark is used to highlighi the text
+  strike -- strike is used to strike out the text. we can also use 's'
+  del -- del is used to strike out the text. it represents delete. it gives better SEO
+  ins -- ins is used to underline the text . it represents inserted value at deleted value. it gives bettter SEO
+  sup -- sup is used to add text as superscript of previous text
+  sub -- sub is used to add text as subscript of previous text
+
+  br -- br is a self closing tag use for breaking the line
+  hr -- hr is a self closing tag used for horizontal line
+  kbd -- kbd is used for keyboard shortcuts
+  code -- code is used for codes
+  address -- address is used to mention the address
+  pre -- pre is used to print in predefined format
+
+      <p><strong>Lorem ipsum</strong>, <em>dolor sit</em> <u>amet consectetur</u> <mark>adipisicing</mark> 
+    <s>elit</s>. <del>Delectus</del> <ins>aperiam</ins> , <br><hr><br>
+    (a+b)<sup>2</sup> , H<sub>2</sub>0 , <kbd>ctrl+c</kbd> for copy,
+    <br>
+      <code>
+        print("hello world")
+      </code>
+      <address>
+        xyz street, <br>
+        USA
+      </address>
+    <br>
+    <pre>
+       roses are red,
+           violets are blue,
+       blah blah blah 
+    </pre>
+    explicabo omnis rem labore reprehenderit necessitatibus aspernatur animi reiciendis aut?</p>
+
+
+

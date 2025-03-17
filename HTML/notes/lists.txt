@@ -1,0 +1,99 @@
+Lists:
+    lists are used to list out certain elements
+There are three kinds of lists available in HTML.
+They are:
+  i. ordered Lists:
+     ordered lists are used to list certain items/elements in an order. it uses 
+     'ol' tag for list and 'li' tag for each list item
+     Eg:  <ol>
+            <li>something1</li>
+            <li>something2</li>
+          </ol>
+
+
+By default the type is number so both list items will be appeared as numbered list
+
+There are 5 types of ordered lists are available (numbers, uppercase,lowercase alphabets,uppercase,lowercase Roman numbers)
+
+
+To start with a specific, mention number using 'start' attribute
+  <ol type="A" start="27">
+        <li>complete office work</li>
+        <li>go out </li>
+        <li>eat and sleep</li>
+    </ol>
+
+
+ii. unordered lists:
+        In some lists, order is not much important. Those lists are represented by unordered lists.
+    These lists uses ul tag and for each list item it uses li tag
+<ul>
+        <li>Always Practise</li>
+        <li>Learn with passion</li>
+        <li>Don't depend on AI</li>
+    </ul>
+
+iii. Definition Lists:  Definition Lists are used to define certain Definitions or description or timelines etc..,
+Definition List uses 'dl' tag and For Each Definition, you need one Defition Term(dt) and Definition Data(dd)
+
+<dl>
+        <dt>HTML</dt>
+        <dd>HyperText markup language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheers</dd>
+        <dt>JS</dt>
+        <dd>Javascript</dd>
+    </dl>
+
+one list can be added inside another iist called nested Lists.
+  <ol>
+     <li> Bikes:
+       <ul>
+         <li>RX100</li>
+         <li>Royal Enfield</li>
+         <li>PULSUR 150</li>
+       </ul>
+     </li>
+     <li>
+     Cars:
+       <ul>
+         <li>RX100</li>
+         <li>Royal Enfield</li>
+         <li>PULSUR 150</li>
+       </ul>
+     </li>
+  </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
