@@ -1,0 +1,7 @@
+Multimedia: HTML5 allows us to markdown multimedia media elements like 
+video,audio,picture etc..,
+video:
+  video uses 'video' tag and for the refernce, it uses 'source' tag
+  <video>
+   <source src="" />
+  </video>
