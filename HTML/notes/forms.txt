@@ -1,0 +1,33 @@
+Forms are used to collect the user's Data
+Forms contains several inputs and buttons. The submitted Data of form will be sent to backend by API's(javascript)
+form uses 'form' tag
+
+form attributes:
+  action: it contains path of file the form needs to be submitted , ideal for "php"
+  
+  method: method will show whether entered values should be visible on URL or not
+    method: get  --> show the values in URL
+    method: post --> will not show the values in URL
+
+ Inputs: 'input' tag is used to collect user input and it is an inline element and self closing tag. it's attributes are
+   
+   type: it defines the type of input , by default "text"
+   
+   placeholder: placeholder is the dummytext that is present until the user enters value 
+
+   value: value is the actual data user enters, we can use it for pre written values
+
+   name: name is the name of that particular input while it is sending the data to another file
+
+   id: id is general attribute which is used to identify the element uniquely
+   
+   To assign or describe a name for input, we can use label tag
+   label tag contains 'for' attribute whose value should be same as
+   input's ID value
+
+   eg: <label for="na">Enter name:</label>
+       <input type="text" id="na">
+
+
+
+
