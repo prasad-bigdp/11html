@@ -29,5 +29,62 @@ form attributes:
        <input type="text" id="na">
 
 
+Types of Inputs:
+  1. text: text is used to accept text
+  2. email: email is used to accept emails
+  3. password: password is used to hide the text/input. Ideal for passwords,secret keys,upi etc..,
+  4. number: number is used to accept only numerical values.Ideal for OTP,mobile numbers, Age
+  5. file: file is used to upload any files. it can use an 
+  attribute accept to specific formats
+  6.date : date is used to select a specific date
+  7. time: time is used to select specific Time
+  8. datetime-local: it is used to select both date and time at a time
+  9. search : used to search a particular valur. by default it gets submitted once enter is hit
+  10.hidden: hidden is used to hide the data/input
+  11. color: color is used to select a specific color
+  12.  url: url is  used to submit a specific address/link
+  13. week: week is used to select week of the year
+  14. month: month is used to select the montj with year
+  14. radio: radio is used accept radio buttons and these buttons are used for single selection
+
+   <input type="radio" name="gen" id="male" value="1">
+        <label for="male">Men</label>
+          <input type="radio" name="gen" id="female" value="2">
+        <label for="female">Women</label>
+
+  In radio buttons name should be same
+
+  15. checkbox: checkboxes are used to select multiple options
+ <input type="checkbox" id="en" name="lang" value="english">
+        <label for="en">English</label>
+         <input type="checkbox" id="tel" name="lang" value="telugu">
+        <label for="tel">Telugu</label>
+          <input type="checkbox" id="hin" name="lang" value="hindi">
+        <label for="hin">Hindi</label>
+
+  16. Drop Down : To create drop down , you will 'select' tag. Inside the select, each option will be option tag with value
+    <select name="">
+       <option value="">option1</option>
+       <option value="">option2</option>
+       <option value="">option3</option>
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
