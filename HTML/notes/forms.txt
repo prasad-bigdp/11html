@@ -69,6 +69,62 @@ Types of Inputs:
        <option value="">option3</option>
     </select>
 
+  for multiple
+  <select name="" multiple>
+       <option value="">option1</option>
+       <option value="">option2</option>
+       <option value="">option3</option>
+    </select>
+
+
+  optgroup : optgroup is used to group the option under specific label
+  <select name="branch">
+              <option value="">select anyone</option>
+               <optgroup label="BIKES">
+                 <option value="">Royal Enfield</option>
+                 <option value="">Pulsur 150</option>
+                 <option value="">YAMAHA</option>
+               </optgroup>
+               <optgroup label="CARS">
+                 <option value="">BMW</option>
+                 <option value="">Maruthi</option>
+               </optgroup>
+            </select>
+  textArea: it is used to take input using unlimited text like feedbacks,reviews,address etc..,
+  it contains attributes like rows and cols.
+
+  fieldset: it is used to wrap the whole form inputs within a box with border
+  we can provide title to the box by using 'legend'
+
+  HTML VALIDATION: we can validate basic details using HTML input attributes like
+    required: all the inputs with required tag needs to be wriiten before submitting the form
+
+    Basic validators are:
+    1. required : required is used to make the input mandatory so that form will not be submitted without value in it
+    2. disabled: disabled is used to make the input disabled
+    3. minlength,maxlength: used to find minimum and maximum length of a string/text.
+    4. min,max: used to find minimum and maximum values an input can have
+    5. readonly: it is used to make the input only readable
+    6. pattern: pattern is used to verify the input with a regular expression.
+    A regular expression is a set of characters used to create a pattern. Each and every character in regular expression will have meaning
+        regex               valid          invalid
+        "raj"                "raj"         "prasad"
+        "raj+"            "raj","rajj",     "raju"
+                           "rajjj"                
+        "[A-Z]"             DFDSD             fdfD
+        "[A-Z]{3}"           ABC,RAJ          prasad
+
+        [A-Za-z]{3,}        RAJ,Prasad         hi
+        [A-Z]{1,8}          ELEPHANT          elephants
+        we can use \d for [0-9] ,\w for words, 
+        \s for sentenses
+
+
+
+
+
+
+
 
 
 
