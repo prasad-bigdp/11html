@@ -19,6 +19,30 @@ https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-buil
 communities:
 -----------
 dev.to
+daily.dev
+hashnode
+medium
+
+CSS:
+-----
+Intro, different types of css,basic selectors
+fonts,colors,sizes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    

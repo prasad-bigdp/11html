@@ -1,0 +1,63 @@
+CSS stands cascadig style sheets
+CSS is used to design or to provide layout for the webpage. CSS is intoduced in 1993 and it's one of the powerful design standard language
+CSS can be applied to html elements using three ways:
+i. inline CSS: it applies styling to an element using "style" as a attribute
+syntax: <element style="">something</element
+
+ii. internal CSS: it applies styling to an element or multiple elements using "style" as a element
+<style>
+    selector{
+        //properties
+    }
+</style>
+
+selector are used to select an element. 
+ 1. we can select elements using tagname
+ 2. we can select elements with same classname using .classname
+ 3. we can select element with id using #idname
+
+preference: !important> id>class>tag
+
+iii. external css: we can include css in separate file with extension .css and use it in HTML using Link tag
+
+<link rel="stylesheet" href="path to css" />
+
+preference: Inline > Internal > external
+it is always better to write external so that html and css will not be mixed
+
+CSS comments are multi lined starts with /* and ends with */
+
+
+colors:
+colors speak the brand. use minimal number od colors to avoid user's complexity
+we can assign colors in CSS using
+   i. colorname
+   ii. rgb(red,green,blue) - each one takes from 0 to 255
+   iii. rgba(red,greeen,blue,alpha) -- alpha ranges from 0.0 to 1.0, it represents opacity
+   iv. hsl(hue,saturation,lightness) -- 
+   hue means degree of colorname
+   saturation is % of darkness
+   lightness is % of lightness
+   v. hsla(hue,saturation,lightness,alpha)--alpha ranges from 0.0 to 1.0, it represents opacity
+   vi. hexcode: every color will have a hexadecimal number
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
