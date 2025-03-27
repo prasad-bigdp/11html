@@ -2,6 +2,15 @@ colors
 ------
 colorhunt.co
 https://www.realtimecolors.com/
+color picker
+color extension
+what font extension
+
+fonts:
+-------
+google fonts
+dafonts
+1001fonts
 
 images
 --------

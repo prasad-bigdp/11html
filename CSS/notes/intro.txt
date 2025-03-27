@@ -72,6 +72,47 @@ How to include differnt fonts in web page?
    2. google fonts: goto fonts.google.com and select any font and take the link and apply to css
    3. dafont: dafont is a website of collection of different fonts which you can download
 
+font-size: used for assigning certain size for the fonts
+font-weight: defines the width/tickness(100-900/bold/bolder)
+font-style: normal/italic/oblique
+text-align: left/top/bottom/right/center/justify
+text-decoration:size solid/double/dotted/dashed/wavy color underline/overline/line-through
+text-transform:uppercase/lowercase/captialize/none
+text-shadow:x-axis y-axis z-axis color;
+background-clip: text make the background only for text.
+
+units: units are used to measure size of property
+px - pixels are the smallest unit of measure in design. whole screen is divided into mxn(resolution) number of pixels
+% -- it represents percent of parent size
+vh,vw -- viewport height/viewport width
+em -- 1em is the 1 time of parent font size(enumerated value)
+rem -- root enumerated value --it will take roots fontsize(default 16px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
