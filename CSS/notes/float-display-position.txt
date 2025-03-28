@@ -1,0 +1,42 @@
+float: float is a property used for making elements float left or right. it removes the element from the actual flow
+float:left/right/none
+eg:an image and a paragraph need to be shown side by side like an article , we can use
+img{
+    float:right;
+}
+To clear out a floating element, we can use clear
+clear:left/right/both
+
+display: display is used to change the elements view like block or inline etc..,
+display:block will make the element block.block elements will not allow other elements beside
+display:inline will make the element inline . inline will allow other elements beside but it cannot handle height and width
+display:inline-block: it make the element inline but it can handle height and width
+display:none;
+
+position:
+    position is used to keep an element at different places on web page.it allows us to move element based on top,left,right,bottom properties.
+    There are 5 positions available
+    1. static: static is the default and dummy position , we cannot use top,left,right,bottom
+    2. relative : relative is the position which make elements moves from its current position towards top,left,right,bottom
+    3. absolute : absolute is the position which make elements moves from the body, not based on its previous position
+    4. fixed: fixed is the position which make elements moves from the body but scrolling will not have any impact on it.
+    5. sticky: sticky is the position which make elements move from its current position but after specific condition, it will become fixed until its parent is done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
