@@ -1,0 +1,49 @@
+body{
+  height: 100vh;
+  background: radial-gradient(rgb(241, 193, 193),white);  
+}
+#main{
+  max-width: 1280px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.Image{
+    border-radius: 50%;
+    margin: 10px;
+}
+.Name{
+    font-size: 28px;
+    margin: 5px;
+}
+.checkIcon{
+    background-color: rgb(12, 164, 223);
+    border-radius: 50%;
+}
+.icons{
+    margin: 10px;
+}
+.icon{
+   color: black;
+   font-size: 28px;
+   margin:0px  10px ;
+}
+.course{
+  background-color: rgb(185, 181, 181);
+  border: 1px solid black;
+  padding: 20px 50px;
+  max-width: max-content;
+  margin:20px  auto;
+  border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+.courseImage{
+border-radius: 50%;
+}
+.courseTitle{
+  color: black;
+  font-size: 28px;
+  margin: 0px 10px;
+}
