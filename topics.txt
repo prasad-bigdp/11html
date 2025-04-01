@@ -27,6 +27,11 @@ CSS:
 -----
 Intro, different types of css,basic selectors
 fonts,colors,sizes
+box model(padding,margin,border,border-radius)
+float
+display-inline,block,inline-block,none
+position -absolute,relative,static,fixed,sticky
+display-flex
 
 
 

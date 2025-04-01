@@ -1,0 +1,29 @@
+Flex is used to arrange elements in single direction i.e., row or column
+
+Always flex should be defined to the parent element
+
+Default direction for flex is row
+Parent Properties:
+display:flex
+flex-direction:row/column/row-reverse/column-reverse
+justify-content:left/start/right/end/center/space-around/space-between/space-evenly
+it arranges elements in same direction as flex direction
+align-items:start/left/right/end/center
+it arranges elements in opposite direction of flex 
+gap: it is used to define gap between the elements
+flex-wrap:nowrap/wrap/wrap-reverse
+it is used to wrap up the elements until their width/height such that new lines will form
+align-content: left/start/right/end/center/space-around/space-between/space-evenly
+it is used to arrange the lines formed by flex wrap
+
+child Properties:
+flex-grow: it is the measurement to increase an element when gap is available
+flex-shrink: it is the measurement to decrease an element when gap is not available
+flex-basis: it is the fixed size of an element irrespective of gap
+order: order is the number by which all elements are arranged and default order is 0 and default all are arranged with increasing order
+
+
+
+
+
+

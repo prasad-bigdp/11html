@@ -1,0 +1,30 @@
+#main{
+    border: 1px solid red;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row;
+    justify-content:center;
+    align-items:center;
+  gap: 20px; */
+  /* flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center; */
+  
+}
+.child{
+    background-color: green;
+    width: 150px;
+    height: 100px;
+    border: 1px solid white;
+    color: white;
+}
+.child1{
+   order: 5;
+}
+.child2{
+    order: 4;
+}
+.child3{
+    order: -1;
+}
