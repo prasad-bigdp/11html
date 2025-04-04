@@ -1,0 +1,58 @@
+There are multiple ways to select an element.
+apart from id,tagname and class name
+i. parent-child selector(>):
+it is used to select element which is direct child of another element
+eg: div>p means p inside directly of div
+
+ii. descendant selector(space): it is used to select element which is descendant of another element
+eg: div p means p inside of div
+
+iii. sibling selector(+): it is used to select element which is right after another element
+eg: div+p means p which comes immediately next to div
+
+iv. attribute selector: it is used to select an element based on its attribute
+element[attribute=value]
+
+input[type="password"]{
+    color:red
+}
+
+pseudo elements: These selectors are used with :: and they are used to select elements based on their position
+
+1. ::first-letter: we can select first letter of any element using
+element::first-letter
+2. ::first-line: we can select first line of any elment using
+element::first-line
+3. ::before: we can select any elements before value using
+element::before
+4. ::after: we can select any elments after value using 
+element::after
+before and after can use content property to show some values before/after the element.
+
+pseudo classes:
+   These elements use single column(:)
+1. :hover - it is used to select an element when mouse over the element
+2. :link  - it is used to select an element when a link is given
+3. :active - it is used to select an element when link is clicked
+4. :visited - it is used to select an element when link is already visited
+5. :required - it is used to select an element when input value is required
+6. :optional - it selects all inputs whose value is not required
+7. :disabled - it selects all inputs whose value is disabled
+8. :enabled - it selects all inputs whose value is not diabled
+9. :empty - it selects all elements without child elements
+10. :focus - it selects all elements when you focus them
+    (for inputs, you can use 'outline' similar to border)
+11. first-child: it is used to select first child of certain element
+12. last-child : it is used to select last child of certain element
+13. nth-child(number): it is used select certain numbered child. we can even use even or odd
+14. nth-last-child(number): it is used to select certain numbered child from last, we can use even or odd
+15. nth-of-type(number): it is used to select certain typed with number position.
+16. nth-last-of-child(number): it is used to select certain typed with number position from last
+
+
+
+
+
+
+
+
