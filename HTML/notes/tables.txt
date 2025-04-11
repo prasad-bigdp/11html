@@ -1,0 +1,54 @@
+Tables are used to represent Data in rows and columns. horizontal ones are called rows and vertical one are called columns.
+Table can be created using 'table' tag
+Inside the table each row, will have 'tr' tag
+Inside each row, we can have td(table data) or 
+th(table heading)
+th will be always bold and centered
+td will be normal text.
+
+td/th values can be any element or plain text
+eg:
+  <table>
+     <tr>
+       <th>name</th>
+       <th>Relation</th>
+     </tr>
+     <tr>
+        <td>prasad</td>
+       <td>myself</td>
+     </tr>
+  </table>
+
+  To combine multiple rows you can use rowspan
+  To combine multiple columns you can use, colspan
+  eg: <td rowspan="2">text</td> will combine two rows
+      <td colspan="2">text</td> will combine two columns
+
+  we can make the code more readable and SEO friendly using
+  thead,tbody and tfoot semantic elements.
+<table>
+    <thead>
+       <tr>
+       <th>name</th>
+       <th>Relation</th>
+     </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>prasad</td>
+       <td>myself</td>
+     </tr>
+    </tbody>
+  </table>
+
+  tables can also have caption tag to define the caption of the table.
+  
+  
+
+
+
+
+
+
+
+

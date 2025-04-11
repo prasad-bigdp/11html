@@ -1,0 +1,21 @@
+Responsiveness: A website should supports and have a clean structure in multiple screens/devices of different sizes. it is called Responsiveness of the website
+To make website more responsive, try to use vh,vw,em,rem,%
+CSS allows 'media Queries' to make website responsive
+media Queries contains
+  min-width: minimum width of screen size
+  max-width: maximum width of screen size
+  orientation: landscape/portrait.
+
+  basic devices vs their sizes
+  mobiles: <=576px
+  landscape mode of mobiles/portrait mode of tablets: >=577px to <=768px
+  lanscape mode of tablets: >=769px to <=1024px
+  PC's : >=1024px to <=1280px
+  laptops: >1280px
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+Box Model is considered as the "heart of CSS". Every element that is discussed/given in web page is considered as a box. A box contains
+  i. border
+  ii. padding
+  iii. margin
+  Inside the box content will be there
+
+  i. border: border is used to draw the outline of a box
+     border: size solid/dotted/dashed/double/groovy color;
+     we can also apply border-left, border-right,border-top and border-bottom separately
+     border-radius: it is the corner radius of an element and 50% border-radius can make perfect circle for a squared box
+  ii. padding: padding is the gap between border and the content
+    padding-left,padding-righ,padding-top,padding-bottom can also be applied individually
+    Increase of padding will increase height and width of box. to avoid this and make box size same , we can use box-sizing:border-box;
+  iii. margin: margin is used to make the gap outside the box 
+  it also works similar to padding 

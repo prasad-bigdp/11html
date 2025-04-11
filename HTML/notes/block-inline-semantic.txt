@@ -1,0 +1,55 @@
+Block Elements:
+     some Elements in HTML are called Block elements because those elements will not allow any other elements beside them
+     eg: h1 to h6 , p etc..,
+     These elements always comes in new line and it can contain height and width
+
+In-line elements: 
+    some elements in HTML elements are called Inline elements because those elements will allow other elements to be beside them
+    eg: formatting tags, a, img etc..,
+    These elements always comes in same line and it cannot contain height and width (img is exception)
+
+
+There are some general container elements which are used to combine two or more elements into one element,  These container elements are
+   div  -- general block container element
+   span -- genreal in-line container element
+
+semantic elements: semantic elements will give more meaning to the containers
+They are used instead of div, They help us understand code more easily and it also increases SEO
+
+most popular semantic elements are:
+  header, footer, main, section,article,nav, aside,figure etc..,
+
+figure tag is used to represent images with their caption
+<figure>
+   <img src="" alt="" />
+   <figcaption></figcaption>
+</figure>
+
+
+class and Id's:
+       Each element needs to be identifies to apply some properties
+    classname: class name is used to identify an element for styling but one element can contain multiple class names and multiple elements contains same class name
+     <h1 class=" head bujji">Hello world</h1>
+        <h2 class="bujji">Hiiii</h2>
+
+    Idname: idname is used to identify an element for styling but no two elements should contain same id and one element cannot have two id
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

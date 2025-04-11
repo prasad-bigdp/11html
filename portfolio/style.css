@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    height: 100px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style:none;
+  gap: 20px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+section{
+    max-width: 1280px;
+    margin: auto;
+    padding: 50px 0px;
+}
+#banner{
+     display: flex;
+     justify-content: space-between;
+    gap: 20px;
+    padding: 100px 0px;
+}
+.bannerLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bannerLeft h1{
+    font-size: 48px;
+}
+.bannerLeft h1 span{
+    color: green;
+}
+.bannerLeft p{
+    font-size: 28px;
+}
+.bannerLeft .buttons{
+    display: flex;
+    gap: 10px;
+}
+.buttons>button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+.buttons>button:nth-child(2){
+    background-color: transparent;
+    border: 2px solid green;
+    color: black;
+}
+.buttons>button:nth-child(2):hover{
+    background-color: green;
+    color: white;
+}
+.heading{
+  padding: 50px 0px;
+    text-align: center;
+    font-size: 36px;
+    background-image: linear-gradient(45deg,rgb(127, 235, 127),rgb(140, 140, 238));
+    background-clip: text;
+    color: transparent;
+}
+#about
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#about>img{
+   clip-path: circle(150px);
+
+}
+#about>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#about>div>p{
+  font-size: 18px;
+  text-align: justify;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.details>div{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 25px green;
+}
+.education>ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+#skills{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+gap: 20px;
+}
+#skills img{
+    height: auto;
+max-width: 100%;
+border-radius: 50%;
+
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 10px 15px green;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 20px;
+}
+.project img{
+  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.project button{
+  background-color: transparent;
+  border: 2px solid green;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.project button:hover{
+  background-color: green;
+  color: white;
+}
+button a{
+  text-decoration: none;
+}
+button a:hover{
+  color: white;
+}
+#contact{
+  box-shadow: 5px 10px 15px green;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  margin: 50px auto;
+}
+#contact h3{
+  font-size: 48px;
+}
+.icons{
+  display: flex;
+  gap: 10px;
+}
+.icons i{
+  font-size: 28px;
+}
+#backToTop{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#backToTop button{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+@media (min-width:560px) and (max-width:776px){
+  header{
+    flex-direction: column;
+    padding: 20px;
+  }
+  #banner{
+    padding: 0px 20px;
+  }
+  .bannerLeft h1
+  {
+    font-size: 32px;
+  }
+  .bannerLeft p{
+    font-size: 20px;
+  }
+  .buttons>button{
+    font-size: 16px;
+  }
+  .bannerRight{
+    height: 250px;
+  }
+  #projects{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width:560px){
+ header{
+    flex-direction: column;
+    padding: 20px;
+  }
+  nav ul{
+    flex-direction: column;
+  }
+  #banner{
+    padding: 0px 20px;
+    flex-direction: column;
+  }
+  .bannerLeft h1
+  {
+    font-size: 32px;
+  }
+  .bannerLeft p{
+    font-size: 20px;
+  }
+  .buttons>button{
+    font-size: 16px;
+  }
+  .bannerRight{
+    height: 250px;
+  }
+  #projects{
+    grid-template-columns: repeat(1,1fr);
+  }
+}

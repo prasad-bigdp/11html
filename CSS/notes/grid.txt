@@ -1,0 +1,25 @@
+Grid: Grid is used to arrange child items in two directional way
+grid is always applied to parent.
+parent properties:
+   display: grid --> it makes all child elements arranges within single column
+   grid-template-columns: it is used to define the columns width
+   grid-template-rows: it is used to define the rows height
+   gap: gap is used to assign the gap between th child elements
+   we can also specify row-gap and column-gap
+   justify-content: it is used to move child items along the row i.e., horizontal
+   align-items: it is used to move the child items along columns i.e., vertical
+   align-content: it is used to move the columns along the column i.e., vertical
+
+   Note: columns can be divided using px, %, em,rem,vh/vw , 
+   fr(fraction) and we can use repeat method
+
+
+child properties:
+grid-row-start: used to mention starting row line number
+grid-row-end: used to mention ending row line number
+grid-column-start: used to mention starting column line number
+grid-column-end: used to mention ending column line number
+grid-row: grid-row-start/grid-row-end;
+grid-column: grid-column-start/grid-column-end
+grid-area: grid-row-start/grid-column-start/grid-row-end/grid-column-end;
+order: defines order of each item, by default 0.

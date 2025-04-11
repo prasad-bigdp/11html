@@ -1,0 +1,142 @@
+CSS stands cascadig style sheets
+CSS is used to design or to provide layout for the webpage. CSS is intoduced in 1993 and it's one of the powerful design standard language
+CSS can be applied to html elements using three ways:
+i. inline CSS: it applies styling to an element using "style" as a attribute
+syntax: <element style="">something</element
+
+ii. internal CSS: it applies styling to an element or multiple elements using "style" as a element
+<style>
+    selector{
+        //properties
+    }
+</style>
+
+selector are used to select an element. 
+ 1. we can select elements using tagname
+ 2. we can select elements with same classname using .classname
+ 3. we can select element with id using #idname
+
+preference: !important> id>class>tag
+
+iii. external css: we can include css in separate file with extension .css and use it in HTML using Link tag
+
+<link rel="stylesheet" href="path to css" />
+
+preference: Inline > Internal > external
+it is always better to write external so that html and css will not be mixed
+
+CSS comments are multi lined starts with /* and ends with */
+
+
+colors:
+colors speak the brand. use minimal number od colors to avoid user's complexity
+we can assign colors in CSS using
+   i. colorname
+   ii. rgb(red,green,blue) - each one takes from 0 to 255
+   iii. rgba(red,greeen,blue,alpha) -- alpha ranges from 0.0 to 1.0, it represents opacity
+   iv. hsl(hue,saturation,lightness) -- 
+   hue means degree of colorname
+   saturation is % of darkness
+   lightness is % of lightness
+   v. hsla(hue,saturation,lightness,alpha)--alpha ranges from 0.0 to 1.0, it represents opacity
+   vi. hexcode: every color will have a hexadecimal number
+
+background:
+  we can assign background-color using 'background-color' property
+  background-color:red/rgb(255,0,0)/rgba(255,0,0,1)/hsl(0, 100.00%, 50.00%)/hsl(0, 100.00%, 50.00%)/#ff0000;
+
+  background-image : background Image can take gradients , images with several properties
+   i. linear-gradient: used to show multiple colour mixtures linear way(left to right/right to left/top to bottom/bottom to top)
+   background-image:linear-gradient(to top,red,yellow);
+   we can assign unlimited colors and different direction or even angle
+   ii. radial-gradient: used to show multiple color mixtures in circular way
+      background-image:radial-gradient(red,yellow);
+   iii. conic-gradient: used to show multiple color mixtures in cone shaped way
+      background-image:conic-gradient(red 30deg,yellow 40deg ,green);
+    iv. background-image:url('path') -- used to insert an image as background
+    v. background-repeat: repeat/no-repeat/repeat-x/repeat-y
+    vi. background-size:auto/cover/contain
+    vii. background-position:top/left/right/bottom/center
+    viii.background-attachement: fixed/scroll
+
+fonts:  fonts represents the brand.
+There are 5 font families existed.
+   a. serif: these fonts will have a stroke at the corner eg: Times new roman
+   b. sans-serif: these fonts will not have any strokes at the corner eg: calibri,aria,poppins
+   c. monospace: monospace letters contains same height and equal gap eg: space-mono
+   d. cursive: cursive fonts are kind of slant sleeping letters 
+   e. modern/fantasy: fantasy are the created fonts for special purposes
+
+How to include differnt fonts in web page?
+    1. font-family: basic fonts are given by editor  which you can choose
+   2. google fonts: goto fonts.google.com and select any font and take the link and apply to css
+   3. dafont: dafont is a website of collection of different fonts which you can download
+
+font-size: used for assigning certain size for the fonts
+font-weight: defines the width/tickness(100-900/bold/bolder)
+font-style: normal/italic/oblique
+text-align: left/top/bottom/right/center/justify
+text-decoration:size solid/double/dotted/dashed/wavy color underline/overline/line-through
+text-transform:uppercase/lowercase/captialize/none
+text-shadow:x-axis y-axis z-axis color;
+background-clip: text make the background only for text.
+
+units: units are used to measure size of property
+px - pixels are the smallest unit of measure in design. whole screen is divided into mxn(resolution) number of pixels
+% -- it represents percent of parent size
+vh,vw -- viewport height/viewport width
+em -- 1em is the 1 time of parent font size(enumerated value)
+rem -- root enumerated value --it will take roots fontsize(default 16px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

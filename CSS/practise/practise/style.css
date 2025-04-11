@@ -1,0 +1,21 @@
+.box{
+    height:50px;
+    width: 50px;
+    background-color: transparent;
+    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+    background-image: url('https://i.natgeofe.com/k/7bfcf2d2-542e-44f0-962a-c36f2efa98a5/heart_3x2.jpg');
+    background-position: center;
+    background-size: cover;
+  
+   transition:all 0.1s ease-in-out;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   width: max-content;
+}
+.box:hover{
+   border-radius: 0/0;
+   visibility: hidden;
+   /* transform:scale(1.10); */
+}

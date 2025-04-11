@@ -1,0 +1,29 @@
+Transition: It is used to observe the change happened from one state to another state
+you need to mention transition in the initial state.
+transition: properties  duration  timing-function
+  properties are used to mention which property change need to observered or can say 'all' to observe all changes
+  duration is used to mention the time it takes to change from one state to another (in s or ms)
+  timing function: it represents the speed it follows through the change. There are so many timing functions like
+  a. ease-in: it starts slowly and becomes faster
+  b. ease-out: it starts faster and becomes slow
+  c. ease-in-out: it starts slow, later fasts and ends slowly
+  d. ease: it gradually increases the speed
+  e. linear: maintain constant speed
+
+  Animations: Animations are nothing but multiple transitions where it starts without any user intervention
+  Every animation contains keyframes
+
+  eg: 
+  .element{
+    animation-name: slideDown 2s ease;
+  }
+  @keyframes slideDown{
+    0%{
+      transform:translateY(0px)
+    }
+    100%{
+      transform:translateY(500px)
+    }
+  }
+
+  animation: animation-name animation-duration animation-timing-function animation-iteration-count animation-direction animation-delay

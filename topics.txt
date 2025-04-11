@@ -1,0 +1,56 @@
+Internet Fundamentals
+UI & UX Design(figma)
+HTML:
+------
+   Introduction
+   headings,p,a,img
+   formatting tags
+   lists
+   block vs inline, semantic
+   tables
+   media
+   forms
+   HTML5
+
+Resources:
+-----------
+https://www.freecodecamp.org
+
+communities:
+-----------
+dev.to
+daily.dev
+hashnode
+medium
+
+CSS:
+-----
+Intro, different types of css,basic selectors
+fonts,colors,sizes
+box model(padding,margin,border,border-radius)
+float
+display-inline,block,inline-block,none
+position -absolute,relative,static,fixed,sticky
+display - flex
+display - grid
+transitions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

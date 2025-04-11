@@ -1,0 +1,44 @@
+body{
+scrollbar-color: red green !important;
+scrollbar-width: 50px;
+height: 200vh;
+}
+::-webkit-scrollbar-thumb{
+    color: red;
+    background-color: blue;
+}
+*{
+    transition: all 0.8s ease;
+}
+#box{
+    transform-style: preserve-3d;
+    height: 200px;
+    width: 200px;
+    perspective: -600px;
+}
+.item{
+    border: 1px solid black;
+    padding: 50px;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+.front{
+    background-color: green;
+    color: white;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    z-index: 1;
+}
+.back{
+    color: black;
+}
+#box:hover{
+    transform: rotateY(180deg);
+    .front{
+        transform: rotateY(180deg);
+    }
+    .back{
+        transform: rotateY(-180deg);
+    }
+}

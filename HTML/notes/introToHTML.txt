@@ -1,0 +1,130 @@
+Code Editors: code editors are the software/tools where you can write/run your code
+we use visual studio code in our course
+why ?
+   1. vscode have plenty of awesome extensions
+   2. More than 80% of web developers users VSCode
+
+Download & Install VSCode
+
+Open vscode --> file ---> open folder
+
+goto Extensions --> install "Live Server by Ritwick Dey"
+
+
+Web developement: Web development contains multiple technologies used to developed websites or web apps
+For basic frontend, we use HTML,CSS,JS.
+   HTML -- structure of the webpage
+   CSS -- styling/designing of the webpage
+   JS -- functionality of the webpage
+
+History: 
+  In late 1980's at CERN lab, Tim Berners lee proposed an idea of sending documents as hyperlinks. The Communication through the world to see these hyperlinks , he called "world wide web"
+  In 1989, he wrote first code to keep document in HyperLink and he called it as "Hyper text Markup Language"
+  Officially, CERN released HTML in 1991. The First Browser, "worldwideweb" later renamed as "nexus" used first HTML.
+  "netscape" is the popular browser of 90's.
+
+   They formed a group called W3C(world wide web consortium). This group will set rules to browsers for supporting web development
+   HTML --> XHTML (XML) --> DHTML --> HTMX
+  current version of HTML is HTML5
+
+HTML:
+  HTML stands for HyperText Markup Language. it is used to define the structure or skeleton of the web page.
+  In HTML, everything is decided by Tags
+    for eg: <p>  -- paragraph open Tag
+            </p> -- paragraph close Tag
+    
+The combined value of open tag and close tag with its content is called element
+ paragraph element ==> <p>  dghdfghdf </p>
+
+ Basic HTML : HTML code always within HTML element. HTML element have two childern HEAD and BODY
+    HEAD -- used for the meta data -- data about the data
+    BODY -- used for the content of website.
+
+ <html>
+    <head>
+    </head>
+    <body>
+    </body>
+ </html>
+   HEAD can contain childern like TITLE
+   <html>
+    <head>
+      <title>My web site</title>
+    </head>
+    <body>
+    </body>
+ </html>
+
+The leftside gaps of a tag makes the more readable. this is called "indentation"
+For good indentation, you can alsi use an extension "prettier"
+
+In HTML, comments can be used for user readability within
+<!--  and -->
+
+Every element in HTML will have attributes , they are like properties of that element. every attribute will have a value
+
+ VSCode Provides shortcuts to generate template codes. These are called "emmets"
+
+ Eg: To generate HTML basic template, you can use html:5+enter or !+enter
+ 
+ Basic HTML Template:
+ <!DOCTYPE html> <!-- DOCTYPE defines  the following document is html type-->
+<html lang="en"> <!-- HTML open tag with attribute lang and value "en"-->
+<head><!-- head open tag-->
+	<meta charset="UTF-8"> <!-- meta tag is used for meta data- extra data. it is having charset (character set) attribute with value UTF(unicode transmission format) 8 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- this line indicates our screen with have width equal to device width and initial scale(zoom) 100%-->
+	<title>Document</title><!-- title defines the title of the web page, on tab section-->
+</head> <!-- head close tag-->
+<body> <!-- body open tag -->
+   <!-- actual content -->
+</body> <!-- body close tag -->
+</html> <!--  html close tag -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

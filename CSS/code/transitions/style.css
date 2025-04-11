@@ -1,0 +1,74 @@
+.box
+{
+    height: 100px;
+    width: 100px;
+    /* animation-name: bouncing;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /* transition: all 500ms ease-in-out; */
+}
+img{
+    height: 400px;
+        animation: shake 0.1s ease infinite alternate, moving 2s ease infinite alternate;
+        /* position: absolute; */
+
+}
+@keyframes shake {
+    100%{
+        transform: translateY(50px);
+    }
+}
+@keyframes moving {
+    100%{
+        transform: translateX(500px);
+    }
+}
+/* @keyframes rotateAround {
+    0%{
+        transform: rotate(0deg);
+        top: 0;
+        left: 0;
+    }
+    33.33%{
+          transform: rotate(360deg) ;
+          top: 0;
+          left: 500px;
+    }
+    66.66%{
+        transform: rotate(360deg);
+        top: 80%;
+        left: 0;
+    }
+    100%{
+        top: 80%;
+        left: 500px;
+    }
+    
+} */
+/* @keyframes bouncing {
+    0%{
+     background-color: blue;
+    }
+    20%{
+        transform: translateY(500px);
+    }
+    40%{
+        transform: translateX(500px);
+        background-color: red;
+        border-radius: 50%;
+    }
+    60%{
+        transform: translateX(700px) translateY(500px);
+        background-color: yellow;
+    }
+    80%{
+        transform: translateX(900px);
+        background-color: green;
+    }
+} */
+/* .box:hover{
+    transform: translateX(200px) rotate(360deg);
+    border-radius: 50%;
+} */

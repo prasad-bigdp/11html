@@ -1,0 +1,66 @@
+Multimedia: HTML5 allows us to markdown multimedia media elements like 
+video,audio,picture etc..,
+video:
+  video uses 'video' tag and for the refernce, it uses 'source' tag
+  <video>
+   <source src="" />
+  </video>
+
+  source is used to assign  multiple values sources and source values belongs to its parent
+
+audio: audio tag is used to print different audios using the source src
+<audio>
+     <source src="audio path">
+</audio>
+
+video and audio tags will have attributes such as 
+controls, autoplay,muted etc..,
+
+Iframe 
+   iframe is used to embed any 3rd pary media or website
+<iframe src="resource path"></iframe>
+
+it can contain attributes like height, width, frameborder
+eg: <iframe src="./mcqs.pdf" frameborder="0" height="500"></iframe>
+
+picture tag:
+  picture is used to display responsive images in the same position. i.e., different images for different screens
+  it contains srcset for source and media for media queries and display according
+  i. media widths should be in descending order
+  ii. Default img tag should be at last
+
+ Icons & Emojis
+ i. for Icons and emojis , 
+ you can use symbol code (UTF Code) : to print symbol code starts with '&' or you can use windows+. in vs code
+
+ ii. you can also use libraries, libraries are pre written codes for a specific purposes
+add following link to head of html 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+goto font awesome website and get any icon html code and paste it in body
+iii. downoad icons as images and use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Internet Fundamentals
+UI & UX (figma)
+HTML  
+  -- intro
+  -- headings, p, a, img
+  -- formatting tags
+  -- lists

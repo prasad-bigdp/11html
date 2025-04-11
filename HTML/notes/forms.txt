@@ -1,0 +1,146 @@
+Forms are used to collect the user's Data
+Forms contains several inputs and buttons. The submitted Data of form will be sent to backend by API's(javascript)
+form uses 'form' tag
+
+form attributes:
+  action: it contains path of file the form needs to be submitted , ideal for "php"
+  
+  method: method will show whether entered values should be visible on URL or not
+    method: get  --> show the values in URL
+    method: post --> will not show the values in URL
+
+ Inputs: 'input' tag is used to collect user input and it is an inline element and self closing tag. it's attributes are
+   
+   type: it defines the type of input , by default "text"
+   
+   placeholder: placeholder is the dummytext that is present until the user enters value 
+
+   value: value is the actual data user enters, we can use it for pre written values
+
+   name: name is the name of that particular input while it is sending the data to another file
+
+   id: id is general attribute which is used to identify the element uniquely
+   
+   To assign or describe a name for input, we can use label tag
+   label tag contains 'for' attribute whose value should be same as
+   input's ID value
+
+   eg: <label for="na">Enter name:</label>
+       <input type="text" id="na">
+
+
+Types of Inputs:
+  1. text: text is used to accept text
+  2. email: email is used to accept emails
+  3. password: password is used to hide the text/input. Ideal for passwords,secret keys,upi etc..,
+  4. number: number is used to accept only numerical values.Ideal for OTP,mobile numbers, Age
+  5. file: file is used to upload any files. it can use an 
+  attribute accept to specific formats
+  6.date : date is used to select a specific date
+  7. time: time is used to select specific Time
+  8. datetime-local: it is used to select both date and time at a time
+  9. search : used to search a particular valur. by default it gets submitted once enter is hit
+  10.hidden: hidden is used to hide the data/input
+  11. color: color is used to select a specific color
+  12.  url: url is  used to submit a specific address/link
+  13. week: week is used to select week of the year
+  14. month: month is used to select the montj with year
+  14. radio: radio is used accept radio buttons and these buttons are used for single selection
+
+   <input type="radio" name="gen" id="male" value="1">
+        <label for="male">Men</label>
+          <input type="radio" name="gen" id="female" value="2">
+        <label for="female">Women</label>
+
+  In radio buttons name should be same
+
+  15. checkbox: checkboxes are used to select multiple options
+ <input type="checkbox" id="en" name="lang" value="english">
+        <label for="en">English</label>
+         <input type="checkbox" id="tel" name="lang" value="telugu">
+        <label for="tel">Telugu</label>
+          <input type="checkbox" id="hin" name="lang" value="hindi">
+        <label for="hin">Hindi</label>
+
+  16. Drop Down : To create drop down , you will 'select' tag. Inside the select, each option will be option tag with value
+    <select name="">
+       <option value="">option1</option>
+       <option value="">option2</option>
+       <option value="">option3</option>
+    </select>
+
+  for multiple
+  <select name="" multiple>
+       <option value="">option1</option>
+       <option value="">option2</option>
+       <option value="">option3</option>
+    </select>
+
+
+  optgroup : optgroup is used to group the option under specific label
+  <select name="branch">
+              <option value="">select anyone</option>
+               <optgroup label="BIKES">
+                 <option value="">Royal Enfield</option>
+                 <option value="">Pulsur 150</option>
+                 <option value="">YAMAHA</option>
+               </optgroup>
+               <optgroup label="CARS">
+                 <option value="">BMW</option>
+                 <option value="">Maruthi</option>
+               </optgroup>
+            </select>
+  textArea: it is used to take input using unlimited text like feedbacks,reviews,address etc..,
+  it contains attributes like rows and cols.
+
+  fieldset: it is used to wrap the whole form inputs within a box with border
+  we can provide title to the box by using 'legend'
+
+  HTML VALIDATION: we can validate basic details using HTML input attributes like
+    required: all the inputs with required tag needs to be wriiten before submitting the form
+
+    Basic validators are:
+    1. required : required is used to make the input mandatory so that form will not be submitted without value in it
+    2. disabled: disabled is used to make the input disabled
+    3. minlength,maxlength: used to find minimum and maximum length of a string/text.
+    4. min,max: used to find minimum and maximum values an input can have
+    5. readonly: it is used to make the input only readable
+    6. pattern: pattern is used to verify the input with a regular expression.
+    A regular expression is a set of characters used to create a pattern. Each and every character in regular expression will have meaning
+        regex               valid          invalid
+        "raj"                "raj"         "prasad"
+        "raj+"            "raj","rajj",     "raju"
+                           "rajjj"                
+        "[A-Z]"             DFDSD             fdfD
+        "[A-Z]{3}"           ABC,RAJ          prasad
+
+        [A-Za-z]{3,}        RAJ,Prasad         hi
+        [A-Z]{1,8}          ELEPHANT          elephants
+        we can use \d for [0-9] ,\w for words, 
+        \s for sentenses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

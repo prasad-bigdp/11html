@@ -1,0 +1,7 @@
+body{
+    /* background-color: hsla(4, 28%, 76%, 0.749) */
+    /* background: linear-gradient(orange,white,green,orange,white,green,orange,white,green,orange,white,green,orange,white,green,orange,white,green); */
+    background: linear-gradient(45deg,red,white,blue,white);
+    height: 100vh;/* 100vh means 100% of
+    visible height */
+}
