@@ -16,3 +16,9 @@ How to use git?
    git config --global user.email "ur email id of github account"
 
    again do step iii and iv.
+
+   github commands:
+   i. goto github.com and create an account
+   ii. git remote add origin "link"
+   iii. git push -u origin main 
+   
