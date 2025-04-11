@@ -8,3 +8,11 @@ Download & Install Git
 
 How to use git?
    i. Goto VSCode --> terminal ---> new terminal --> command prompt
+   ii. git init
+   iii. git add .
+   iv. git commit -m "message"
+
+   for first time use, git config --global user.name "yourusername"
+   git config --global user.email "ur email id of github account"
+
+   again do step iii and iv.
