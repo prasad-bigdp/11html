@@ -20,5 +20,4 @@ How to use git?
    github commands:
    i. goto github.com and create an account
    ii. git remote add origin "link"
-   iii. git push -u origin main 
-   
+   iii. git push -u origin master/main 

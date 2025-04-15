@@ -1,0 +1,82 @@
+Bootstrap is a CSS component library which is used for UI purposes. A library is a Pre written code used for specific purpose. 
+for eg: 
+//x.CSS
+.blue{
+    background-color:blue;
+}
+.green{
+    background-color:green
+}
+
+//x.html
+<html> 
+   <head>
+      <title>simple</title>
+      <link href='./x.css' />
+    </head>
+    <body>
+      <button class="green">click me <cick me>
+    </body>
+</html>
+
+
+
+How to use Bootstrap?
+   1. Search the bootstrap CDN link and attach/link it to HTML  (https://getbootstrap.com/)
+   2. mention the class names to elements
+ 
+ The latest version of Bootstrap is Bootstrap 5.3.5 . Bootstrap follows some basic concepts.
+
+ 1. colors: Bootsrap provides 8 colours such as
+
+   primary  - blue
+   secondary - gray
+   success- green
+   danger -red
+   info - skyblue
+   warning - yellow
+   dark - black
+   light - white
+ we can apply these to text like text-primary , backgrounds like bg-primary, buttons like btn-primary, borders like border-primary etc..,
+ we can even customize according to our requirements using separate CSS
+
+
+ii. utitlities:  bootstrap uses css properties as class names like
+ padding : p-0, p-1, p-2, p-3,p-4,p-5, pt-0,pb-0,ps-0(padding start/left),pe-0(padding-end/right)........
+ margin : m-0, m-1,m-2,m-3,m-4, m-5, mt-0,mb-0,ms-0,me-0
+ fontSize: fs-1,fs-2,fs-3,fs-4.fs-5,fs-6
+ height: h-0,h-25,h-50,h-75,h-100, same for width also
+ rounded(border-radius): rounded-0,rounded-1,.....
+display: d-block,d-inline, d-inline-block, d-none, d-flex, d-grid
+float and positions: floar-left,float-right,float-none,position-static,
+position-fixed etc..,
+
+Bootstrap cannot give pseudo elements, transitions, animations.
+
+
+iii. bootstrap layout: Bootstrap follows grid layout  by default , and It divides every line as a row and every row contains 12 columns
+iv. Breakpoints: Bootstrap provides set of breakpoints and we can adjust any property for any specific Breakpoint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
