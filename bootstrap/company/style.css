@@ -1,0 +1,9 @@
+nav{
+    max-width: max-content !important;
+}
+.banner h1{
+    font-size: 48px !important;
+}
+.banner img{
+    height: 100%;
+}
