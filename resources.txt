@@ -26,7 +26,13 @@ https://flexboxlabs.netlify.app/
 https://animista.net/
 
 
+inspiration:
+dribble
+behance
+https://github.com/emmabostian/developer-portfolios
 
+extensions:
+intellisence for css classnames in HTML
 
 
 

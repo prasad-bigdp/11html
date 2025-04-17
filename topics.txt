@@ -34,7 +34,10 @@ position -absolute,relative,static,fixed,sticky
 display - flex
 display - grid
 transitions
+animations
+media Queries
 
+Bootstrap:  utiliies, layout, breakpoints, colors, components, icons
 
 
 

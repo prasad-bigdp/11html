@@ -1,0 +1,42 @@
+what is JS? 
+    Javascript is a client side scripting language which is used for the functionality of web pages. Every browser by default have a JS engine which is used to run JS code in Browser like chrome have v8, mozilla have spidermonkey, edge have chakra etc..,
+
+    Along the JS engine , every browser also have developer tools (to see them , right click on mouse and inspect).
+    elements -- HTML and css code
+    sources -- Actual source files of website
+    console -- it is a blank page used for debugging js code
+    network -- it is used for all network request
+    memory -- it contains memory allocations of a website
+    performance -- it contains analytics of website performance
+    Applications -- it contains storages such as local storage, session storage,cookies,cache etc..,
+    lighthouse -- website analytics for SEO, performance, best practices etc..,
+
+How to include JS into HTML?
+   i. internal JS : we can combine JS code in HTML using "script" element
+   eg: <body>
+            <script>
+               console.log("hello world")
+            </script>
+        </body>
+   ii. External JS : we can write js code separately in .js files and attach them using following code
+       <script src="./script.js"></script>
+
+   <body>
+            <script src="./script.js"></script>
+        </body>
+  //script.js
+     console.log("hello world")
+
+   Good practice is  always add css at the end of head and js at the end of body 
+
+
+task 1: create a js file and print your details in console and attach it to HTML
+
+  ---> In JS, semi colon is automatically inserted for every line or statement at the end but if two statements are in the same line, need to separated using semicolon, best practice is mentioning semicolons always
+  ---> JS is case sensitive( uppercase and lowercase are difference)
+
+
+
+
+
+
