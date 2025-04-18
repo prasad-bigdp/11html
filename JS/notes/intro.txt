@@ -34,6 +34,7 @@ task 1: create a js file and print your details in console and attach it to HTML
 
   ---> In JS, semi colon is automatically inserted for every line or statement at the end but if two statements are in the same line, need to separated using semicolon, best practice is mentioning semicolons always
   ---> JS is case sensitive( uppercase and lowercase are difference)
+  
 
 
 

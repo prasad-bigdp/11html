@@ -1,0 +1,27 @@
+DataTypes:
+     Datatypes are used to define the type of data.There are primarily two types of data types available
+     i. primitive data types
+     ii. non primitive data types
+
+     primitive datatypes are used to store the value directly and these are immutable (can't change)
+       eg: number, string, boolean, undefined, null
+     non primitive datatypes are used to store values based on primitive datatypes and these are mutable.These are also called reference datatypes
+        eg: functions,arrays, objects etc..,
+
+
+    i. number: Any numerical value in JS is considered as number
+      eg:  let x=25;
+      console.log(typeof x)
+
+     Browser provides some default methods for numbers such as
+       a. toFixed(noOfFractionDigits): it returns new value that got round off per n number of digits after decimal
+       eg: let a=25.1463;
+       a.toFixed(2); //25.15
+       b. toString(baseNumber) : it is used to convert number into string and  it can also convert number into any based
+       eg: let a=16;
+       a.toString(2) // '1000'
+
+
+
+
+

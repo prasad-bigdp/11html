@@ -1,0 +1,22 @@
+JS course:
+  i. Basics:
+       Introduction
+       Variables(let,var,const)
+       Datatypes(number, string,boolean,undefined, null)
+       operators
+       functions
+       Arrays
+       objects
+       control statements( if, switch)
+       loops( while, dowhile, for)
+  ii . DOM Manipulation
+  iii. Advanced:
+         asynchronous JS (AJAX)
+         API, fetch
+         promises, async await
+         ES6
+         libraries (JQuery)
+         BOM
+         OOP
+         prototype Inheritance
+         
