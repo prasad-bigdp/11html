@@ -21,3 +21,5 @@ How to use git?
    i. goto github.com and create an account
    ii. git remote add origin "link(url+.git)"
    iii. git push -u origin master/main 
+
+git branching:
