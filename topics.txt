@@ -31,13 +31,22 @@ box model(padding,margin,border,border-radius)
 float
 display-inline,block,inline-block,none
 position -absolute,relative,static,fixed,sticky
-display - flex
-display - grid
+display - flex   -- flexboxfroggy
+display - grid   -- gridgarden
 transitions
 animations
 media Queries
 
+Portfolio website
 Bootstrap:  utiliies, layout, breakpoints, colors, components, icons
+
+simple company site
+
+JS:
+-----
+   Introduction
+   variables
+   datatypes - number
 
 
 
