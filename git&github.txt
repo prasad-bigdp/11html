@@ -22,4 +22,24 @@ How to use git?
    ii. git remote add origin "link(url+.git)"
    iii. git push -u origin master/main 
 
-git branching:
+git branching: git divides repository into multiple branches so that different phases of developement will be covered.
+  create a branch : git branch branchname
+  goto a branch : git checkout branchname
+  Then try to push code in that branch
+  it creates a new branch with some changes, so you can create a pull request
+  it compares for changes and merge that pull request code to main/master
+
+Github repository can be copied in two ways.
+   
+   git clone : gti clone "link"
+
+   git fork: git clone will not have any connection to the repository, Instead git fork will have connection such that future updates also will be notified
+
+
+
+
+
+
+
+
+
