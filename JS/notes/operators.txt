@@ -1,0 +1,1 @@
+Operators are used to perform simple operations between operands

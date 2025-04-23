@@ -34,5 +34,9 @@ https://github.com/emmabostian/developer-portfolios
 extensions:
 intellisence for css classnames in HTML
 
+JS:
+freecodecamp - legacy JS
+scrimba js challenges
+
 
 

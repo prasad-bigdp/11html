@@ -20,6 +20,88 @@ DataTypes:
        b. toString(baseNumber) : it is used to convert number into string and  it can also convert number into any based
        eg: let a=16;
        a.toString(2) // '1000'
+      
+      Math methods:
+          These methods are used to perform mathematical operations using Math class(default)
+         i. Math.abs() : it is used to remove negitivity of the value
+         eg: Math.abs(-4)  -->4
+         ii. Math.sqrt() : it is used to return the square root of the value
+         eg: Math.sqrt(25)  -->5
+         iii. Math.cbrt() : it is used to return the cube root of the value
+         eg: Math.cbrt(27)  -->3
+         iv. Math.ceil() : it is used to return the upper value(nearest upper integer)
+         eg: MAth.ceil(4.1)  --->5
+         v. Math.floor() : it is used to return the lower value (nearest lower integer)
+         eg: Math. floor(4.8)  -->4
+         vi. Math. round(): it returns rounding off to the value
+         eg: Math.round(4.6)  -->5
+         vii. Math.random() : it returns random value between 0 and 1
+         eg: Math.random()  -->0.5126
+         viii. Math.max(): it returns maximum value among available
+         eg: Math.max(5,6,1,3)  -->6
+         ix. Math.min() : it returns minimum value among available
+         eg: Math.min(5,6,1,3)  -->1
+
+         you can use, log, exp, pi etc..,
+
+ii.  strings: strings are used to store alphanumerical values(combination of letters and number)
+   strings can be represented in 3 ways
+   i. single quotation: strings can be represented using single quotes
+   eg: let s='raj';
+   ii.  double quotes: strings can also be represented using double quotes
+   eg: let s="raj";
+   There is no difference between single or double quotes but can be used inside nested quotes
+   eg:  let msg= ' The time is 5'0 clock '
+
+  iii. backtick : strings can also be represented using backticks, usually it is used to print dynamic values inside the string without breaking the string
+  for dynamic values, we keep ${}.
+  This type of strings are called template literals
+
+string methods:
+   There are so many methods strings have by default in javascript
+    a. length: it returns the number of characters in a string
+    b. toUpperCase(): it returns the string into uppercase string
+    c. toLowerCase(): it returns the string into lowercase string
+    d. charAt() : returns character at given index
+    e. indexOf() : returns the index of given character's first occurence
+    f. lastIndexOf: returns the index of given character's last occurence
+    g. concat: returns combination of given string with original string
+    h. includes: returns true/false based on whether string contains given value or not.
+    i. split() : returns an array of values split based on delimiter
+    j: join(): returns string by combining all elements of array using delimiter
+    k: startsWith(): returns true/false based on whether string is starting with given value or not
+    l: endsWith(): returns true/false based on whether string is ending with given value or not
+    m: replace(): returns new string with replacement of first occurence of old string with new string
+    n. replaceAll(): returns new string with replacement of all occurences of old string with new string
+    o: slice(starting,end): returns part of string from starting index to stop index.
+    stop index is not included
+    if only start index given, it takes from start index to end of string
+
+iii. boolean: boolean is a datatype which is used to store true(1) or false(0).
+iv. undefined : undefined is the accidental absence of value
+   eg: console.log(a);
+   var a=20;
+v. null: null is the intentional absence of value, usually used to represent empty/void value for any object key
+   eg: var name=null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
