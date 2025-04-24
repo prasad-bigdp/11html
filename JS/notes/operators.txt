@@ -1,1 +1,86 @@
-Operators are used to perform simple operations between operands
+Operators are used to perform simple operations between operands.
+There are different types of operators:
+  i. Arithematic operators:
+      + -- used for addition
+      - -- used for subtraction
+      * -- used for multiplication
+      / -- used for division
+      % -- used for remainder
+      ** -- used for power
+   ii. Logical operators
+       &&  -- return true only if all conditions are true else false --logical AND
+       || -- returns false only if all conditions are false else true -- logical OR
+       !  -- retuns true if condition is false and vice versa -- logical NOT
+    iii. Relational operators:
+      > -- used for comparing first value is greater than the second value or NOT
+      < -- used for comparing first value is less than the second value or NOT
+      >= -- used for comparing first value is greater than or equals to second value or NOT
+      <= -- used for comparing first value is less than or equals to second value or NOT
+      == -- used for comparing two values equal or not irrespective of their data types
+     === -- used for comparing two values and their data types are equal or NOT
+     !=  -- used for comparing two values are not equal or not irrespective of their data types
+     !== -- used for comparing two values and their data types not equal or not 
+
+  iv. Assignment operators: 
+     += ---> a+=1  --> a=a+1;
+     -= ---> a-=1  --> a=a-1;
+     *= ---> a*=1  --> a=a*1;
+     /= ---> a/=1  --> a=a/1;
+     %= ---> a%=1  --> a=a%1;
+     **= --> a**=1 --> a=a**1
+  
+  v. Ternary operator: it is used to change flow based on a condition. it is also called conditional operator
+     (condition) ? statement1 : statement2;
+     if condition is true , control goes to the statement1 else control goes to the statement2
+     eg: let c= 4;
+     let x = (c>2) ? 10 : 20;
+     here x is 10 since c>2 is true
+
+  vi. unary + : it is used to change data type of any value to number. Any value preceeding with unary + automatically converted as number data type
+  eg: +'4'+2 ==>6 
+
+   JS is dynamically types language. The datatype is decided based on value it contains. we can conver any data type to any other data types using classes Number(), String(), Boolean() etc..,
+   By default based on operations they also get converts
+
+  vii. Increment(++) and decrement(--):
+    These are used to increase or decrease the value by 1.
+    These operators have two variation pre and post
+       pre Increment(++a): it first updates(increase by 1) the values and assigns it
+       post Increment(a++): it first assigns the value and then updates(increase by 1)
+       pre decrement(--a):  it first updates(decrease by 1) the values and assigns it
+       post decrement(a--):it first assigns the value and then updates(decrease by 1)
+
+       let x=10,y=20;
+       let z = ++x + x++ + --y + y--;
+            //11+11+19+19
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

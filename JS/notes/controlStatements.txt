@@ -1,0 +1,66 @@
+Control Statements: These are also called Decision making statements. These are used to change the control flow based on a condition result
+1. if statement
+2. switch statement
+   
+1. if statement: it is used to check the condition for control flow
+   a. simple if:
+       syntax: if(condition)
+       {   
+             //statements
+       }
+        statements will run only if condition is true
+
+    b. if..else:
+       syntac: if(condition)
+       {
+        //statement1
+       }
+       else
+       {
+        statement2
+       }
+       if condition is true it goes to statement1 else it goes to statement2
+  c. multiple if else if :
+      it is used to check multiple conditions step wise
+      syntax: if(condition){
+        // statement1
+      }
+      else if (condition){
+        //statement2
+      }
+      else if(condition){
+        //statement3
+      } 
+      and so on 
+      else{
+        //statement4
+      }
+
+    iv. nested if: we can even include one if statement inside other called nested if
+    syntax:
+    if(condition){
+        if(condition2){
+            //statement
+        }
+    }
+
+To clear the probelm of multiple if else if, we can use switch
+2. switch:
+syntax:
+  switch(expression/value){
+    case value1: //statements ; break;
+    case value2: //statements ; break;
+    ....
+    default: //statemnets
+  }
+
+
+
+
+
+
+
+
+
+
+
