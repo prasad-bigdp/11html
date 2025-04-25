@@ -4,6 +4,7 @@ if (name == "raj")
 {
     console.log("welcome to raj")
 }
+
  
 //if--else
 let age = 20;
@@ -33,8 +34,8 @@ else
 
 // check the gender of person, only males who are above 18 are eligible for this job. use appropriates else cases
 let gender = 'M', ag = 21;
-if (gender == "M")
-{
+    if (gender == "M")
+    {
     if (age > 18)
     {
         console.log("you are eligible")

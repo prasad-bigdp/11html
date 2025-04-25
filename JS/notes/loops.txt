@@ -1,0 +1,96 @@
+loops: loops are used to iterate certain statements. Basically loops are two types
+  i. Entry control loops
+  ii. Exit Control loops
+
+i. Entry Control loops:
+    These loops checks the condition at the starting of loop. it will enter only if the condition is true and exit when condition is false. until the condition is false the loop iterates
+    eg: while, for
+      check condition
+         true
+           runs statement1
+           again check condition
+     false
+         stop
+ii. Exit Control loops:
+    These loops checks the condition at the ending of loop. it will enter loop without condition but while exiting it checks the condition, if it is true it re runs again , else it will stop
+   eg: do while
+
+   i. while: while is entry control loop that iterates until the condition fails.
+    syntax: initialization;
+            while(condition){
+                //statements
+                updation;
+            }
+
+      eg: let i=1;
+      while(i<10){
+        console.log(i);
+        i++;
+      }
+
+    Mostly when initialization, condition and updation are need to be in separate places, then will go for while
+
+ii. do while : do while is a exit control loop which will get initial run without check and will iterate until condition false.
+     initialization;
+      do{
+        //statements;
+        updation;
+      }while(condition);
+
+    task : print even number from 10 to 1 in reverse order using while and dowhile
+    output: 10
+            8
+            6
+            4
+            2
+    task2 : print all letters of a string in reverse order without space
+    sample input: "I love JS"
+    sample output:"SJevolI"
+
+let s="I love Js";
+let s1='';
+let i =s.length-1;
+while(i>=0){
+if (s.charAt(i)!= ' ')
+{
+s1=s1.concat(s.charAt(i));
+}
+i--;
+}
+
+task 3:
+print in console
+*
+* *
+* * *
+* * * *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
