@@ -64,6 +64,69 @@ print in console
 * *
 * * *
 * * * *
+let r=1;
+while(r<=4){
+ let c=1,stars='';
+ while(c<=r){
+   stars= stars+"* "
+   c++;
+ }
+ console.log(stars)
+  r++;
+}
+
+
+
+
+
+iii. for loop:  for loop is used as a entry control loop but initialization, condition and updation are in same line
+
+for(initialization;condition;updation){
+  //statements
+}
+
+//print numbers from 10 to 1 using for
+
+for (let i = 10; i >= 1; i--)
+{
+    console.log(i)
+}
+
+Variations of for:
+  In js, For loop have so many Variations such as for..of, for..in and forEach
+for..of: it is used to print all values from the array
+syntax: for(let Variable of array){
+  console.log(Variable)
+}
+here Variable is considered as Element 
+
+for..in : it is used to print all values of object using key values
+syntax : for(let Variable in array/object){
+  console.log(Variable)
+}
+here Variable is considered as index or object key
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -46,7 +46,12 @@ JS:
 -----
    Introduction
    variables
-   datatypes - number
+   datatypes - number, strings, boolean, undefined,null
+   operators
+   control statements (if, switch)
+   loops(while, do while, for, for of, for in)
+
+   
 
 
 
