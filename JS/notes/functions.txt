@@ -1,0 +1,99 @@
+Functions: function is a reusable block of code used for specific task
+Js follows functional or modular programming where functions place crucial role
+syntax: function function_name() //function prototype
+{
+    //statements
+}
+
+function_name() // function call
+eg:
+function display ()
+{
+    console.log("hello world")
+}
+display()
+
+functions can take parameters/arguments for dynamic tasks
+  function function_name(parameters){
+    //body
+  }
+  function_name(arguments)
+// sum of 2 numbers with parameters
+function sum1 (a, b)
+{
+    console.log(a + b);
+}
+sum1(5, 6);
+sum1("raj","prasad")
+
+
+// task - create a function that accepts a string as parameter and print its length in console
+
+function printLen(a)
+{
+    console.log(a.length);
+}
+a("alok")
+
+// sometimes we forgot to pass all parameters, in that case we can give default parameter values.
+
+function function_name(x=5){
+    console.log(x+1)
+}
+function_name(10)
+
+// rest operator
+it is used to accept more/remaining parameters into one parameter as a array
+
+//sum with rest
+function sum3 (a, ...b)
+{
+    console.log(a, b);
+}
+sum3(10,5,4,6,3)
+always rest operator should be the last parametre and preceeded by three dots
+
+//spread operator:
+it is used to spread out the elements of array and it is also preceeded by three dots
+// add two arrays
+let arr = [5, 4, 6], arr2 = [1, 2, 3];
+let arr3 = [...arr,...arr2]
+
+spread is used when giving the values and rest is used when accepting the values
+spread removes the array and rest makes the array
+spread can be written anywhere but rest should be at the end of paramter list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
