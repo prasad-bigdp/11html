@@ -33,7 +33,7 @@ function printLen(a)
 {
     console.log(a.length);
 }
-a("alok")
+printLen("alok")
 
 // sometimes we forgot to pass all parameters, in that case we can give default parameter values.
 
@@ -62,6 +62,84 @@ let arr3 = [...arr,...arr2]
 spread is used when giving the values and rest is used when accepting the values
 spread removes the array and rest makes the array
 spread can be written anywhere but rest should be at the end of paramter list
+
+functions can even return the values, 
+function function_name()
+{
+    return value;
+}
+function_name();
+
+function sum (a,b)
+{
+    return a + b;
+}
+let res = sum(4, 5)
+console.log(res)
+
+sometimes, it is possible to skip the return keyword using Arrow Functions. Arrow functions are a modern way of representing function expression.
+function expressions are a way to represent anonymous function(functions without a name) as a value
+ let x = function(){console.log("hi)}
+ now x contains whole function and calling x leads to function call
+
+ The modern way of writing function expression is arrow function. Arrow functions doesn't need function keyword and return automatically without retutn keyword if only one statement is there.
+
+ function sum(a,b){
+    return a+b;
+ }
+ const z = (a,b) => a+b;
+
+functions can even pass other functions as parameters. The function which is passed as a parameter to another function is called callback function and the function that receives another function is called Higher order function
+function x (p,q)
+{
+    console.log("i'm  x"+(p+q))
+}
+function doPrint (a)
+{
+    a(5,3)
+}
+doPrint(x) // x is callback and doPrint is Higher order function
+
+//closures:
+ closures are used to memorise the previous result. it is used in techniques like memorization
+ inner function remembers outer function values even after outer function execution ended. it is called closure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

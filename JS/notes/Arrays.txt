@@ -1,0 +1,24 @@
+Arrays: Arrays are used to store different elements. Arrays elements are represented in square brackets. Every Element contains unique position value called index. Arrays indexes starts with zero
+eg: let arr = [8,9,6,-1,4,0];
+console.log(arr[1]) //9
+console.log(arr[10]) //undefined
+
+//Arrays Methods
+To perform different Tasks, Arrays have default methods 
+i. length : length is used to get total number of elements in the array
+ii. push : push is used to add a value/values to the end of the array
+iii. pop : pop is used to remove the last value of the array
+iv. unshift : unshift is used to add the values to the starting of the array
+v. shift : shift is used to remove the starting value of the array.
+vi. splice(index,deleteCount,insertValues):
+     if only index number is given , deletes all values from that index
+     if index and deleteCount is given, deletes as deleteCount values from index
+     if index, deleteCount and insertValues are given, it removes values as per deleteCount from index and add insertValues from that index
+vii. reverse: it is used to reverse the array elements
+viii. indexOf : it is used to find the index of first occurence of a element
+ix. lastIndexOf : it is used to find the index of last occurence of a element.
+x.  forEach : forEach method takes a callback function to returns that callback function to each and every element of the array. it passes element and index to the call back function.
+    array.forEach(callbackfunction(element,index))
+   
+
+
