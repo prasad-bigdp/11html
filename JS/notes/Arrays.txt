@@ -19,6 +19,50 @@ viii. indexOf : it is used to find the index of first occurence of a element
 ix. lastIndexOf : it is used to find the index of last occurence of a element.
 x.  forEach : forEach method takes a callback function to returns that callback function to each and every element of the array. it passes element and index to the call back function.
     array.forEach(callbackfunction(element,index))
-   
+eg:    let arr= [1,2,3];
+      arr.forEach((v,i)=>{
+        console.log(v,i)
+      })
+
+forEach cannot return the values
+xi. map : map is exactly same as forEach but map can return the values
+    array.map(callbackfunction(element,index))
+eg:    let arr= [1,2,3];
+      arr.map((v,i)=>{
+        console.log(v,i)
+      })
+Map will return for every element of the array
+xii. filter: filter is also exactly like map but it returns only the condition true values
+    array.filter(callbackfunction(element,index))
+eg:    let arr= [1,2,3];
+      arr.filter((v,i)=>{
+        console.log(v,i)
+      })
+ xiii. some : some will return true if the condition is true for atlease one element of the array, else it returns false
+ xiv. every : every will return true if the condition is true for every element of the array , else it returns false
+  xv. sort: sort is used to sort the elements of the array 
+   without callback function, sort will sort the elements based on alphabetically. it even checks the numbers one after other digits and compares them
+   callback function can take two parameter as neighbour values and 
+      i. if function returns negitive , no need of swapping
+      ii. if function returns positive, swap the digits
+let arr= [5,4,6,1,11,14,8,22]
+// console.log(arr.sort()) //[1,11,14,22,4,5,6,8]
+arr.sort((a,b)=>a-b) //increasing order
+arr.sort((a, b) => b - a); // reverse order
+console.log(arr);
+ 
+ xvi. reduce: reduce is used to get cumulative results from an array
+   array.reduce(callbackfunction(prev,curr),initialValue)
+
+
+
+
+
+
+
+
+
+
+
 
 

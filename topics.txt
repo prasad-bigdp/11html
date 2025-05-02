@@ -50,7 +50,9 @@ JS:
    operators
    control statements (if, switch)
    loops(while, do while, for, for of, for in)
-
+   functions
+   Arrays
+   Objects
    
 
 

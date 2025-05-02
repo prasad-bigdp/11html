@@ -39,5 +39,5 @@ freecodecamp - legacy JS
 scrimba js challenges
 https://developer.mozilla.org/en-US/
 https://javascript.info/
-
+https://masri.blog/Blog/Coding/Potfolios/Collection-of-150-awesome-portfolios?ref=dailydev
 
