@@ -1,0 +1,20 @@
+HTML code (presentation code) is stored inside document object by Browser,
+Using this object, we can take the values ,elements or any data from HTML to javascript
+  To understand DOM(document Object Manipulation), we need to understand these three stages
+  i. selection
+  ii. Manipulation
+  iii. creation
+
+  i. selection :  document object provides some basic functions to select
+  elements from HTML
+      a. getElementsByTagName('tagname') : it selects all elements using that tagname and returns an array of elements.
+      b. getElementsByClassName('className') : it selects all elements using class name and returns an array of elements.
+      c. getElementById('idname') : it selects all elements using id and returns that element 
+      d. querySelector: it selects first element that matches the query(css selectors)
+      e. querySelectorAll : it selects all elements that matches the query and returns an array
+
+    ii. Manipulation: we can Manipulate elements which are selected usinf its properties
+      i. textContent : it contains all the text inside the element
+
+
+      

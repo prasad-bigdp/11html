@@ -55,6 +55,18 @@ JS:
    Objects
    
 
+JS Practice:
+______________
+freecodecamp , JS hero , https://30dayjavascript.js.org/08-day/ , https://leetcode.com/problemset/ , https://www.jschallenger.com/javascript-basics/ ,https://www.jschallenger.com/javascript-basics/
+
+
+DOM:
+________
+
+
+
+
+
 
 
 
