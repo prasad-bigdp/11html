@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #modal img{
+            transition: all 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Enter Yor name" id="inp">
+    <button onclick="reverseName(),changePicture()">reverse name</button>
+    <p><b>reversed name:</b>
+        <span id="rev"></span></p>
+    <div id="modal" style="border-top: 5px solid green;">
+         <img src="https://ih1.redbubble.net/image.4970235870.9330/fposter,small,wall_texture,square_product,600x600.jpg" alt="shinchan" height="300" onclick="rotateShinchan()">
+    </div>
+    <button onclick="changePicture()">show magic</button>
+    <script src="./sscript.js"></script>
+</body>
+</html>

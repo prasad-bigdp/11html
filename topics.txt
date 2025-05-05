@@ -63,7 +63,7 @@ freecodecamp , JS hero , https://30dayjavascript.js.org/08-day/ , https://leetco
 DOM:
 ________
 
-
+    DOM selection, DOM manipulation
 
 
 

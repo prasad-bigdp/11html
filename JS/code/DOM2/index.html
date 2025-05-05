@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading
+        {
+            transition: all 1s ease;
+        }
+        .dark{
+            background-color: black;
+            color: white;
+        }
+        #box{
+            padding: 20px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            color: black;
+            max-width: fit-content;
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+    <button onclick="changeMode()">changeMode</button>
+    <div id="box">
+        <button onclick="closeBox()">close</button>
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" alt="doremon" height="200">
+        <h2>doremon</h2>
+    </div>
+    <h1 id="heading">Welcome to DOM</h1>
+    <button onclick="change()">click here</button>
+    <script src="./script.js"></script>
+</body>
+</html>
