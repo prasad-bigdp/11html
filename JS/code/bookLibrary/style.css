@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+#books{
+  max-width: 1280px;
+  margin: auto;
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 40px;
+}
+.book{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ border-radius: 20px;
+ transition: all 1s ease;
+}
+.book:hover{
+    scale: 1.05;
+    box-shadow: 5px 10px 15px orange;
+}
+@media (max-width:992px){
+  #books{
+    grid-template-columns: repeat(2,auto);
+  }
+}
+@media (max-width:576px){
+  #books{
+    grid-template-columns: repeat(1,auto);
+  }
+}

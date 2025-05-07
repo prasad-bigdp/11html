@@ -20,3 +20,12 @@ Using this object, we can take the values ,elements or any data from HTML to jav
       iv. innerHTML : using innerHTML, you can alter html code but it also have security issues like cross site scripting
       v. value: value is used to accept html input values . 
       
+    iii. creation: we can create HTML elements and add them into HTML using DOM creation
+         we can achieve this using document.createElement();
+         
+
+
+
+
+
+
