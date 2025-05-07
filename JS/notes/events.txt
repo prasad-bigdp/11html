@@ -1,0 +1,36 @@
+Events are used to trigger certain functions based on user's actions. Events can be represented in two ways
+  i. Event handlers: These events are mentioned in HTML like inline scripting
+  eg: <button onclick="incr()">click me</button>
+  The probelm with event handlers are , we need to check both html and js to understand flow of js
+  ii. Event listners:
+  Event listners listens to particular event and runs the function. These events are mentioned in JS.
+  eg: <button id="btn">click me</button>
+
+  //js
+  document.getElementById('btn').addEventListner('click',functionName)
+
+
+  Types of events: There are numerous events provided by Javascript
+  i. mouse events:
+     mouse events are triggered by user's mouse actions
+     eg:mouseover,mouseout,click,dblclick etc..,
+  ii. keyboard events:
+     keyboard events are triggered by user's keyboard actions
+     eg: keypress
+ Every time an event happens its function will receive an event object automatically . This event object contains complete information of that particular event
+ e.key -- it contains what we pressed in keyboard
+  iii. form events : these events are triggered by user inputs
+     eg: input,change,select,submit etc..,
+e.target.value  -- it contains value of input
+  iv. window events: These events are random actions by user such as
+  eg:scroll,close,domcontentloaded
+
+
+
+
+
+
+
+
+
+
