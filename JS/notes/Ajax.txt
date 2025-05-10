@@ -1,0 +1,7 @@
+AJAX(Asynchronous Javascript): it is a web development technique for creating dynamic and interactive web pages.
+   --> AJAX loads separately
+   --> AJAX uses Javascript to send request and handle the responses from server
+   --> Asynchronous functions basically takes some time and always return promises
+   Eg: timers(setTimeout,setInterval) , fetch etc..,
+
+   
