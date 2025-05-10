@@ -40,14 +40,14 @@ media Queries
 Portfolio website
 Bootstrap:  utiliies, layout, breakpoints, colors, components, icons
 
-simple company site
 
+simple company site
 JS:
 -----
    Introduction
    variables
    datatypes - number, strings, boolean, undefined,null
-   operators
+   operators 
    control statements (if, switch)
    loops(while, do while, for, for of, for in)
    functions
