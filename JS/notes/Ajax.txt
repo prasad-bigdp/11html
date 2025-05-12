@@ -4,4 +4,85 @@ AJAX(Asynchronous Javascript): it is a web development technique for creating dy
    --> Asynchronous functions basically takes some time and always return promises
    Eg: timers(setTimeout,setInterval) , fetch etc..,
 
-   
+setTimeout : it is used to assign a time for a callback function such that it will run only after given time is over
+setTimeout(()=>{
+   console.log("hi)
+},5000)
+In above example, "hi" will print in console after 5 seconds
+clearTimeout : we can even stop the execution of callback in setTimeout before the time runs out using clearTimeout.
+
+setInterval: it is used to assign a time for a callback function such that it will run everytime the given time is over
+setInterval(()=>{
+console.log("hi")
+},5000)
+In above example , "hi" will print in console after every 5 seconds
+we can stop it using "clearInterval"
+let i = setInterval(()=>{
+console.log("hi")
+},5000)
+
+clearInterval(i) will stop the setInveral
+
+
+Application Programming Interfaces: API's are used to connect client to server or any other applications. it acts like a bridge between frontend(client) and backend(server). it follows the client server model. client requests the server using an URL(httpRequest) and server Responds to the Client(httpResponse)
+There are so many API's like SOAP API,REST API,GraphQL,gRPC etc..,
+we use mainly in web development, REST API(REPRESENTATIONAL STATE TRANSFER). These API's often send responses in JSON(Javascript Object Notation) structure. 
+In Olden time, we used to use XMLHttpRequest() method for Requesting the server but modern browsers supports a new method called "fetch"
+
+Every Asynchronous function returns Promise.
+Promise: 
+Promise is used to handle asynchronous functions, Promise is an object that contains eventual completion(or failure ) of asynchronous operations. basically, it contains details of an operation whether it will fulfill or reject or in pending
+Promise contains a callback that takes resolve and reject . resolve function contains data that needs to be returns when promise resolved , reject function contains error that needs to be returned when promise rejected.
+let p = new Promise((resolve,reject) =>
+{
+    let n = 20;
+    if (n % 2 == 0)
+    {
+        setTimeout(() => {
+					resolve("i got a job")
+				}, 5000)
+    }
+    else
+    {
+        reject("I did not get any job")
+    }
+})
+
+
+How to handle the promises? 
+  Promises can be handled using then and catch. Anything that returns by resolve will goto the then and Anything that returns by reject will go to the catch.
+  p
+    .then((res) => console.log(res))
+    .catch((err)=>console.log(err))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
