@@ -41,3 +41,6 @@ https://developer.mozilla.org/en-US/
 https://javascript.info/
 https://masri.blog/Blog/Coding/Potfolios/Collection-of-150-awesome-portfolios?ref=dailydev
 
+
+API LIST:
+https://dev.to/hanzla-baig/300-free-apis-every-developer-needs-to-know-2ohm?ref=dailydev
