@@ -60,7 +60,7 @@ jsonplaceholder.typicode.com
 spotify
 cricketdata
 gemini
-
+https://iplocate.io/api/lookup
 
 
 

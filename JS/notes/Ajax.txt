@@ -56,6 +56,25 @@ How to handle the promises?
     .catch((err)=>console.log(err))
 
 
+fetch: fetch is the default web API which takes url and options for http requests and returns a Promise. The Promises are then handled using then and catch.
+fetch will not return direct data through promise, so we need to convert initial promise response into JSON . it will result a new promise and upon resolving it, we get the data
+
+    fetch(url)
+    .then((res)=>res.json())
+    .then((data)=>console.log(data))
+    .catch((err)=>console.log(err))
+
+
+    we can solve promises using async await also, it is the modern method to handle promise
+
+Async Await:
+
+
+
+
+
+
+
 
 
 

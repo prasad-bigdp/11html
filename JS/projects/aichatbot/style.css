@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    height: 60vh;
+    padding: 20px;
+    max-height: 80vh;
+    overflow-x: scroll;
+    width: 80vw;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
