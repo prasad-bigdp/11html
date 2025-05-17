@@ -21,3 +21,10 @@ function displayData(d) {
 	desc.textContent = d.weather[0].description
 	output.append(latlong, temp, desc)
 }
+// fetch(url, { method: "POST", })
+// 	.then((res) => res.json())
+// 	.then((data)=>console.log(data))
+// 	.catch((err) => console.log(err))
+	
+// const res = await fetch(url, { method: "POST" })
+// const data = await res.json()

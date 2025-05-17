@@ -50,7 +50,7 @@ document.getElementById('btn').addEventListener('click', fetchData)
 function displayData (v)
 {
     const h3 = document.createElement('h3');
-    h3.textContent = v;
+    h3.innerHTML = `<p>${v}</p>`;
     document.getElementById("main").appendChild(h3)
 }
 

@@ -63,8 +63,20 @@ freecodecamp , JS hero , https://30dayjavascript.js.org/08-day/ , https://leetco
 DOM:
 ________
 
-    DOM selection, DOM manipulation
+    DOM selection, DOM manipulation, Dom creation
 
+Advanced:
+-------------
+Events, Types of Events,
+Async JAvascript(AJAX)
+   -- timers , event loop, call stack, task queue
+   -- API, promise, fetch
+   -- async await
+   -- libraries
+   -- BOM
+   -- ES6 (OOP, Modules)
+   -- Prototype inheritance, event propgation & delegation
+   -- Design Patterns
 
 
 

@@ -1,0 +1,11 @@
+Library is a Predefined code or prewritten code for a specific purpose. Library contains a package of methods or patterns that makes development easy
+
+Instead of developing everything on our own, sometimes, it is better to use third party libraries
+
+Every library need to be installed by npm(node package manager) or link using cdn
+
+i. JQuery : Jquery is used specifically for DOM manipulations
+ii. Typing animations: Typedjs, TypeIt
+iii. Animations: AOS, animate js, GSAP, threeJS
+iv. maps & charts : chart js, amcharts
+v. sliders: slick, swiper etc..,
