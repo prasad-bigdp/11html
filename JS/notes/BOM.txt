@@ -1,0 +1,55 @@
+Browser Object Model: Whole Browser or JS engine maintained by an object called window. Understanding, using the window object is called Browser Object Model .
+ <!-- get url details -->
+ let a = window.location.href;
+console.log(a)
+console.log(window.location.search)
+window.location.reload //reloads the page
+window.location.replace(url) //replaces the url
+
+<!-- window.history -->
+    window.history.forward()
+    window.history.back()
+
+Storages: Browser can save data using different storage techniques. localStorage and sessionStorage are two types of web storage mechanisms. Both allows you to store data locally on client side.
+ difference between them : 
+ localStorage data is persistent , it will stay even after browser is closed or system restart. sessionStorage data is temporary storage. when user closes the browser or session expires automatically it will be deleted
+  data in sessin storage follows same origin policy , means data is available for only that domain. typically 5 mb per origin. same goes for localStorage allows
+
+localStorage.setItem('name', 'prasad')
+localStorage.getItem('name')
+localStorage.removeItem('name')
+localStorage.clear()
+localStorage.length
+
+sessionStorage.setItem('name', 'prasad')
+sessionStorage.getItem('name')
+sessionStorage.removeItem('name')
+sessionStorage.clear()
+sessionStorage.length
+
+cookies: cookies are the small text files that a web server stores on a users device
+there are different types of cookies
+session cookies, persistent cookies, 3rd part cookies,  security cookies, httpOnly cookies
+eg: authentication, personalization, tracking, analytics
+
+cons: localStorage or sessionStorage should not contain secret informations such as banking details, api key, login details
+cookies should be allow only if it secures the data, always minimize cookies size
+document.cookie = "username:Pras
+
+// for video streaming
+window.navigator.mediaDevices
+        .getUserMedia({ video: true, audio: true })
+        .then((res) =>vd.srcObject=res)
+        .catch((err)=>console.log(err))
+
+
+
+
+
+
+
+
+
+
+
+
