@@ -1,0 +1,85 @@
+ES6 (Ecma script):Ecmascript is a scripting language standard used for the cliend side scripting on the web . This is the foundation of Javascript. it releases version updates for all scripting languages. we have serveral versions and the latest one is ES15 released in 2024.
+ES6 released in 2015 also known as ES2015 brought features like
+   --> Template literals
+   --> let and const keywords
+   --> function optional parameters
+   function sum(a,b=6){
+    console.log(a+b)
+   }
+   sum(5)
+   --> arrow function
+   --> rest and spread operators
+   --> destructuring of objects and arrays
+   --> ES6 Module System
+   --> OOP concepts
+
+ES6 Module System: Module Systems are used to connect communication between multiple js files
+
+ There are different module systems before ES6 like commonJS, requireJS, UMD etc.., But ES6 made it easy using keywords export and import
+ Named Export:  use the export keyword to export variables or function, you can combine all and send as an objects
+ Default Export: use export and default keywords to export a single value or function
+ export const a=24; //named export
+ export {fun,b} // named export
+ export default a; //default export
+
+ Named import: use curly braces {} to import exported values
+  import {fun,a} from 'filepath'
+ import alias : we can event import all values exported except default as an object using * 
+  import * as obj from 'filepath'
+ default import : we can import the default exported value without braces and can even change the name. it identifies correctly because one file will have only one default export
+  import a from path
+
+OOP :  
+JS is a functional oriented programming but ES6 introduces class keyword to use object approach into JS
+
+object is a physical entity . object exists with properties and methods
+class is a structure for objects. it is a collection/factory of object
+Fruit  - class  - name, color, shape,taste , eat()
+fruit object --> apple -->
+
+each object contains individual dynamic memory of class data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
