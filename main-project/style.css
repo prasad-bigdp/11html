@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#e49745;
+    --secondary-color:rgb(247, 74, 103);
+
+}
+
+header, footer{
+    background-color: rgb(115, 114, 114);
+    padding: 5px 50px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px gray;
+    transition: all 1s ease;
+}
+.product:hover{
+    box-shadow: 5px 10px 15px var(--primary-color);
+
+}
