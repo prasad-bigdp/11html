@@ -13,13 +13,23 @@ const displayData = (data,id) =>
         productDiv.classList.add('product')
         const productImage = document.createElement("img")
         productImage.src = v.thumbnail;
-        productImage.alt= v.title
+        productImage.alt = v.title
         const productTitle = document.createElement("h2")
         productTitle.textContent = v.title;
+        const productLink = document.createElement('a');
+        productLink.href=`./pages/product.html?pid=${v.id}`
         const productPrice = document.createElement("p")
-        productPrice.textContent = "Price: ₹" + v.price;
-				productDiv.append(productImage, productTitle, productPrice)
-				document.getElementById(id).append(productDiv)
+        productPrice.textContent = "Price: $" + v.price;
+        const addcartButton = document.createElement('button');
+        addcartButton.textContent = "Add To Cart";
+        addcartButton.classList.add("btn", "btn-success", "p-2")
+        addcartButton.addEventListener('click', () =>
+        {
+            addToCart(v)
+        })
+        productLink.appendChild(productTitle)
+		productDiv.append(productImage, productLink, productPrice,addcartButton)
+		document.getElementById(id).append(productDiv)
     })
 }
 fetchTopProducts("beauty", "topBeauty")

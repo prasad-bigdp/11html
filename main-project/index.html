@@ -6,6 +6,7 @@
     <title>Namaste Cart  - A unique experience of buying trendy products at cheaper cost</title>
     <link rel="shortcut icon" href="https://png.pngtree.com/png-clipart/20191121/original/pngtree-namaste-icon-cartoon-style-png-image_5095393.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,7 +29,7 @@
                     <a class="nav-link active fs-3" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-3" href="#">Products</a>
+                    <a class="nav-link fs-3" href="./pages/products.html">Products</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle fs-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,6 +44,14 @@
                   </li>
                 </ul>
                
+              </div>
+              <a href="./pages/cart.html">
+                <div class="cart">
+                  <i class="bi bi-cart"></i>
+                  <span id="count" class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-success">
+                    0
+                  </span>
+              </a>
               </div>
             </div>
           </nav>
@@ -105,5 +114,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
+    <script src="./common.js"></script>
 </body>
 </html>
